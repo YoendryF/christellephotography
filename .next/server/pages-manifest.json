@@ -1,0 +1,13 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/Bio": "pages/Bio.html",
+  "/headshots": "pages/headshots.html",
+  "/": "pages/index.html",
+  "/naturalphotoshoots": "pages/naturalphotoshoots.html",
+  "/gradpics": "pages/gradpics.html",
+  "/portraits": "pages/portraits.html",
+  "/themedphotoshoots": "pages/themedphotoshoots.html",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
