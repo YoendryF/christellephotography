@@ -8,7 +8,7 @@ export default function Home() {
   const [showContact, setShowContact] = useState(false);
   const [showTech, setShowTech] = useState(false);
 
-  // Polaroid data
+
   const introPolaroid = 
     {
         caption: "Meet The Photographer",
@@ -38,10 +38,7 @@ export default function Home() {
     }
   ];
 
-  // Track current index of each slideshow
   const [indices, setIndices] = useState(Array(polaroids.length).fill(0));
-
-  // Auto-cycle images every 3 seconds
   useEffect(() => {
     const interval = setInterval(() => {
       setIndices(prev =>
@@ -53,7 +50,7 @@ export default function Home() {
 
   return (
     <main>
-      {/* Navbar */}
+      {/*Navbar*/}
       <nav className="navbar">
         <div className="navbar-title">ChristellePhotography.com</div>
         <div className = "navbar-links">
@@ -67,7 +64,7 @@ export default function Home() {
         </button>
       </nav>
 
-      {/* Sidebar */}
+      {/*Sidebar*/}
       <div className={`sidebar ${isOpen ? 'open' : ''}`}>
         <button className="close-btn" onClick={() => setIsOpen(false)}>
           ×
@@ -98,7 +95,7 @@ export default function Home() {
       />
 
 
-      {/* Meet the photographer */}
+      {/*Meet the photographer*/}
         <div className="intro-polaroid-wrapper">
         <div className="polaroid intro-polaroid">
             <Link href="/Bio">
@@ -121,7 +118,7 @@ export default function Home() {
           {polaroids.map((p, i) => (
             <Link
               key={i}
-              href={`/${p.caption.toLowerCase().replace(/\s+/g, '')}`} // creates URLs like "/headshots"
+              href={`/${p.caption.toLowerCase().replace(/\s+/g, '')}`} 
             >
               <div className={`polaroid polaroid-${i}`}>
                 <img src={p.images[indices[i]]} alt={p.caption} />
