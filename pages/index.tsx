@@ -27,7 +27,7 @@ export default function Home() {
       images: ["/Grad/Grad1.JPG","/Grad/Grad2.JPG","/Grad/Grad3.JPG","/Grad/Grad4.JPEG","/Grad/Grad5.JPEG","/Grad/Grad6.JPG","/Grad/Grad7.JPG","/Grad/Grad8.JPEG","/Grad/Grad9.JPEG","/Grad/Grad10.JPEG","/Grad/Grad11.JPEG"],
     },
     {
-      caption: "Natural Photoshoots",
+      caption: "Natural Photoshoot",
       images: ["/Nature/Nature1.JPG", "/Nature/Nature2.JPEG", "/Nature/Nature3.JPG", "/Nature/Nature4.JPG","/Nature/Nature5.JPG","/Nature/Nature6.JPEG","/Nature/Nature7.JPG","/Nature/Nature8.JPG","/Nature/Nature9.JPG","/Nature/Nature10.JPG","/Nature/Nature11.JPG","/Nature/Nature12.JPG","/Nature/Nature13.JPEG","/Nature/Nature14.JPEG","/Nature/Nature16.JPEG","/Nature/Nature17.JPG","/Nature/Nature18.JPG","/Nature/Nature19.JPG"]
     },
     {
