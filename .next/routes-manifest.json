@@ -2,8 +2,16 @@
   "version": 3,
   "pages404": true,
   "caseSensitive": false,
-  "basePath": "",
+  "basePath": "/christellephotography",
   "redirects": [
+    {
+      "source": "/christellephotography/",
+      "destination": "/christellephotography",
+      "basePath": false,
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^/christellephotography/$"
+    },
     {
       "source": "/:path+/",
       "destination": "/:path+",
@@ -93,5 +101,15 @@
     "pathHeader": "x-nextjs-rewritten-path",
     "queryHeader": "x-nextjs-rewritten-query"
   },
-  "rewrites": []
+  "rewrites": {
+    "beforeFiles": [
+      {
+        "source": "/christellephotography//_next/:path+",
+        "destination": "/christellephotography/_next/:path+",
+        "regex": "^/christellephotography//_next(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))(?:/)?$"
+      }
+    ],
+    "afterFiles": [],
+    "fallback": []
+  }
 }

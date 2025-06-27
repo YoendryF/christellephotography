@@ -4,6 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  basePath: '/christellephotography',
+  assetPrefix: '/christellephotography/',
 };
 
 module.exports = nextConfig;
