@@ -1,7 +1,7 @@
 import Image from 'next/image';
 export default function PortraitsPage() {
     const portraits = [
-      "Portraits/Portrait1.jpg", "Portraits/Portrait2.jpg", "Portraits/Portrait3.jpg", "Portraits/Portrait4.jpg", "Portraits/Portrait5.jpg", "Portraits/Portrait6.jpg", "Portraits/Portrait7.jpg", "Portraits/Portrait8.jpg", "Portraits/Portrait9.jpg", "Portraits/Portrait10.jpeg", "Portraits/Portrait11.jpeg","Portraits/Portrait12.jpg","Portraits/Portrait13.jpg","Portraits/Portrait14.jpg","Portraits/Portrait15.jpg","Portraits/Portrait16.jpg","Portraits/Portrait17.jpg"
+      "Portraits/Portrait1.JPG", "Portraits/Portrait2.JPG", "Portraits/Portrait3.JPG", "Portraits/Portrait4.JPG", "Portraits/Portrait5.JPG", "Portraits/Portrait6.JPG", "Portraits/Portrait7.JPG", "Portraits/Portrait8.JPG", "Portraits/Portrait9.JPG", "Portraits/Portrait10.JPEG", "Portraits/Portrait11.JPEG","Portraits/Portrait12.JPG","Portraits/Portrait13.JPG","Portraits/Portrait14.JPG","Portraits/Portrait15.JPG","Portraits/Portrait16.JPG","Portraits/Portrait17.JPG"
     ];
   
     return (
