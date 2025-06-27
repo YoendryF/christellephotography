@@ -1,7 +1,7 @@
 import Image from 'next/image';
 export default function GradPicsPage() {
     const grads = [
-      "/Grad/Grad1.jpg", "/Grad/Grad2.jpg", "/Grad/Grad3.jpg", "/Grad/Grad4.jpeg", "/Grad/Grad5.jpeg", "/Grad/Grad6.jpg", "/Grad/Grad7.jpg","/Grad/Grad8.jpeg","Grad/Grad9.jpeg","Grad/Grad10.jpeg","Grad/Grad11.jpeg"
+      "/Grad/Grad1.JPG", "/Grad/Grad2.JPG", "/Grad/Grad3.JPG", "/Grad/Grad4.JPEG", "/Grad/Grad5.JPEG", "/Grad/Grad6.JPG", "/Grad/Grad7.JPG","/Grad/Grad8.JPEG","Grad/Grad9.JPEG","Grad/Grad10.JPEG","Grad/Grad11.JPEG"
     ];
   
     return (
