@@ -1,7 +1,7 @@
 import Image from 'next/image';
 export default function ThemedPhotoshootsPage() {
     const Themed = [
-      "Themed/Themed1.jpg", "Themed/Themed2.jpg", "Themed/Themed3.jpeg", "Themed/Themed4.jpg", "Themed/Themed5.jpg"
+      "Themed/Themed1.JPG", "Themed/Themed2.JPG", "Themed/Themed3.JPEG", "Themed/Themed4.JPG", "Themed/Themed5.JPG"
     ]
     return (
       <main>
