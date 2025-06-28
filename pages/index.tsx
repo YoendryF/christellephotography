@@ -14,7 +14,7 @@ export default function Home() {
   const introPolaroid = 
     {
         caption: "Meet The Photographer",
-        image: "/Christelle"
+        image: "/Christelle.JPG"
     }
 
   const polaroids = [
