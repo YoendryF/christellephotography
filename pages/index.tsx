@@ -102,7 +102,6 @@ export default function Home() {
             <Link href="/Bio">
             <Image src={introPolaroid.image} alt={introPolaroid.caption} width={300} height={400} />
             </Link>
-            <Image src={introPolaroid.image} alt={introPolaroid.caption} width={300} height={400} />
         </div>
         </div>  
 
