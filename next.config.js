@@ -1,11 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  basePath: '/docs',
+  assetPrefix: '/docs',
   images: {
     unoptimized: true,
   },
-  basePath: '/christellephotography',
-  assetPrefix: '/christellephotography/',
+  trailingSlash: true
 };
 
 module.exports = nextConfig;

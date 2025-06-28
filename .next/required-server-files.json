@@ -12,7 +12,7 @@
     },
     "distDir": ".next",
     "cleanDistDir": true,
-    "assetPrefix": "/christellephotography/",
+    "assetPrefix": "/docs",
     "cacheMaxMemorySize": 52428800,
     "configOrigin": "next.config.js",
     "useFileSystemPublicRoutes": true,
@@ -46,7 +46,7 @@
         256,
         384
       ],
-      "path": "/christellephotography/_next/image",
+      "path": "/docs/_next/image/",
       "loader": "default",
       "loaderFile": "",
       "domains": [],
@@ -69,11 +69,11 @@
       "pagesBufferLength": 5
     },
     "amp": {
-      "canonicalBase": "/christellephotography"
+      "canonicalBase": "/docs"
     },
-    "basePath": "/christellephotography",
+    "basePath": "/docs",
     "sassOptions": {},
-    "trailingSlash": false,
+    "trailingSlash": true,
     "i18n": null,
     "productionBrowserSourceMaps": false,
     "excludeDefaultMomentLocales": true,

@@ -2,22 +2,35 @@
   "version": 3,
   "pages404": true,
   "caseSensitive": false,
-  "basePath": "/christellephotography",
+  "basePath": "/docs",
   "redirects": [
     {
-      "source": "/christellephotography/",
-      "destination": "/christellephotography",
+      "source": "/docs",
+      "destination": "/docs/",
       "basePath": false,
       "internal": true,
       "statusCode": 308,
-      "regex": "^/christellephotography/$"
+      "regex": "^/docs$"
     },
     {
-      "source": "/:path+/",
-      "destination": "/:path+",
+      "source": "/:file((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/]+\\.\\w+)/",
+      "destination": "/:file",
+      "internal": true,
+      "missing": [
+        {
+          "type": "header",
+          "key": "x-nextjs-data"
+        }
+      ],
+      "statusCode": 308,
+      "regex": "^(?:/((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/]+\\.\\w+))/$"
+    },
+    {
+      "source": "/:notfile((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/\\.]+)",
+      "destination": "/:notfile/",
       "internal": true,
       "statusCode": 308,
-      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+      "regex": "^(?:/((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/\\.]+))$"
     }
   ],
   "headers": [],
@@ -101,15 +114,5 @@
     "pathHeader": "x-nextjs-rewritten-path",
     "queryHeader": "x-nextjs-rewritten-query"
   },
-  "rewrites": {
-    "beforeFiles": [
-      {
-        "source": "/christellephotography//_next/:path+",
-        "destination": "/christellephotography/_next/:path+",
-        "regex": "^/christellephotography//_next(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))(?:/)?$"
-      }
-    ],
-    "afterFiles": [],
-    "fallback": []
-  }
+  "rewrites": []
 }

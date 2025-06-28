@@ -1,30 +1,6 @@
 {
   "version": 4,
   "routes": {
-    "/about": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/about",
-      "dataRoute": "/about.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/Tech": {
       "experimentalBypassFor": [
         {
@@ -48,13 +24,37 @@
         "x-next-revalidated-tags",
         "x-next-revalidate-tag-token"
       ]
+    },
+    "/about": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/about",
+      "dataRoute": "/about.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
     }
   },
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "361de324eda52d95621de8ffcb2ef432",
-    "previewModeSigningKey": "1eef4f7891dd812e2a3cb0e01e318c3b5e437f84572bbaff9ef06a33c02151af",
-    "previewModeEncryptionKey": "98859b6572cbe27c373271921f398ae7f05f2ad81d1e41a62daa8c684f4f4d44"
+    "previewModeId": "9aacc06cef482705e3aa96fe491f6713",
+    "previewModeSigningKey": "812ee4be21bbe6419334739c634962ce8e457191c2d5acc2ed571f491c31e1b5",
+    "previewModeEncryptionKey": "74f13ec8bdbd8d5db77c457e5f4736d9489a2b5c80a698cb640fa5f1aa23f473"
   }
 }
