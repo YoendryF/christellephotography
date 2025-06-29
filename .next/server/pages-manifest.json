@@ -1,13 +1,13 @@
 {
   "/_app": "pages/_app.js",
-  "/Bio": "pages/Bio.html",
+  "/headshots": "pages/headshots.html",
+  "/_error": "pages/_error.js",
+  "/": "pages/index.html",
   "/naturalphotoshoots": "pages/naturalphotoshoots.html",
   "/gradpics": "pages/gradpics.html",
-  "/": "pages/index.html",
   "/portraits": "pages/portraits.html",
   "/themedphotoshoots": "pages/themedphotoshoots.html",
-  "/_error": "pages/_error.js",
-  "/headshots": "pages/headshots.html",
+  "/Bio": "pages/Bio.html",
   "/_document": "pages/_document.js",
   "/404": "pages/404.html"
 }
