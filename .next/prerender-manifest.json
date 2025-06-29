@@ -1,30 +1,6 @@
 {
   "version": 4,
   "routes": {
-    "/about": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/about",
-      "dataRoute": "/about.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/Tech": {
       "experimentalBypassFor": [
         {
@@ -48,13 +24,37 @@
         "x-next-revalidated-tags",
         "x-next-revalidate-tag-token"
       ]
+    },
+    "/about": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/about",
+      "dataRoute": "/about.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
     }
   },
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "c4120e1cffc16f6ec865adb9103d63a7",
-    "previewModeSigningKey": "3278e245ff97ccb557820c4aa946a1921dde814eed068e5da2eb992965aa4970",
-    "previewModeEncryptionKey": "d08b9dc2e24ee4f25b3692500a867395c60e425afc0bfe5a0175fdc4a50773bf"
+    "previewModeId": "a851558199af2cad0682f91e4fccd47d",
+    "previewModeSigningKey": "612a75eb8ad7fb8212b4de6a1185468bd0e3cbbfe09bb07dcd5cc02abcca80a7",
+    "previewModeEncryptionKey": "fbb743ec97ddc3703ce1a480ea481101651699a8dd26144f40fc37012fdaa9af"
   }
 }
