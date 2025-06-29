@@ -57,6 +57,7 @@ export default function Home() {
       <nav className="navbar">
         <div className="navbar-title">ChristellePhotography.com</div>
         <div className = "navbar-links">
+        <Link href="/portfolio">Portfolio</Link>
         <a href="#" onClick={() => setShowRates(true)}>Rates</a>
         <a href="#" onClick={() => setShowTech(true)}>Tech</a>
         <a href="#" onClick={() => setShowContact(true)}>Contact</a>
@@ -138,11 +139,8 @@ export default function Home() {
         <div className="popup-overlay" onClick={() => setShowRates(false)}>
           <div className="popup-content" onClick={(e) => e.stopPropagation()}>
             <h2>Rates</h2>
-            <ul>
-              <li>Brokie</li>
-              <li>Glamorous</li>
-              <li>Lavish package</li>
-            </ul>
+            <p>Standard shoots range at around $80 an hour, but is susceptible to upcharges depending on shoot specifics and location</p>
+            <p>Please contact me to discuss price and booking details</p>
             <button className="close-button" onClick={() => setShowRates(false)}>Close</button>
           </div>
         </div>

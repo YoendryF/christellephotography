@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/dAXTLRJunW_IuEV2Fd3vu/_buildManifest.js",
-    "static/dAXTLRJunW_IuEV2Fd3vu/_ssgManifest.js"
+    "static/CL_VpB3WkLzy9nKiU0gN0/_buildManifest.js",
+    "static/CL_VpB3WkLzy9nKiU0gN0/_ssgManifest.js"
   ],
   "rootMainFiles": [
     "static/chunks/webpack-9b8f60b038f3d060.js",
@@ -21,7 +21,7 @@
       "static/chunks/framework-f0025d9b2959d988.js",
       "static/chunks/main-741b6d242f2fe399.js",
       "static/chunks/587-7677637eb2b4068f.js",
-      "static/chunks/pages/index-f19124fe64b7f947.js"
+      "static/chunks/pages/index-6135b5a5055de3d4.js"
     ],
     "/Bio": [
       "static/chunks/webpack-9b8f60b038f3d060.js",
@@ -63,6 +63,13 @@
       "static/chunks/main-741b6d242f2fe399.js",
       "static/chunks/587-7677637eb2b4068f.js",
       "static/chunks/pages/naturalphotoshoots-e7dea6a39093aa3b.js"
+    ],
+    "/portfolio": [
+      "static/chunks/webpack-9b8f60b038f3d060.js",
+      "static/chunks/framework-f0025d9b2959d988.js",
+      "static/chunks/main-741b6d242f2fe399.js",
+      "static/chunks/587-7677637eb2b4068f.js",
+      "static/chunks/pages/portfolio-7834101d80ccdf04.js"
     ],
     "/portraits": [
       "static/chunks/webpack-9b8f60b038f3d060.js",

@@ -1,13 +1,14 @@
 {
-  "/Bio": "pages/Bio.html",
-  "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/_app": "pages/_app.js",
   "/headshots": "pages/headshots.html",
-  "/naturalphotoshoots": "pages/naturalphotoshoots.html",
-  "/portraits": "pages/portraits.html",
+  "/Bio": "pages/Bio.html",
   "/gradpics": "pages/gradpics.html",
-  "/themedphotoshoots": "pages/themedphotoshoots.html",
   "/": "pages/index.html",
+  "/portfolio": "pages/portfolio.html",
+  "/naturalphotoshoots": "pages/naturalphotoshoots.html",
+  "/themedphotoshoots": "pages/themedphotoshoots.html",
+  "/portraits": "pages/portraits.html",
   "/_document": "pages/_document.js",
   "/404": "pages/404.html"
 }

@@ -77,6 +77,12 @@
       "namedRegex": "^/naturalphotoshoots(?:/)?$"
     },
     {
+      "page": "/portfolio",
+      "regex": "^/portfolio(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/portfolio(?:/)?$"
+    },
+    {
       "page": "/portraits",
       "regex": "^/portraits(?:/)?$",
       "routeKeys": {},
