@@ -1,30 +1,6 @@
 {
   "version": 4,
   "routes": {
-    "/about": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/about",
-      "dataRoute": "/about.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/Tech": {
       "experimentalBypassFor": [
         {
@@ -48,13 +24,37 @@
         "x-next-revalidated-tags",
         "x-next-revalidate-tag-token"
       ]
+    },
+    "/about": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/about",
+      "dataRoute": "/about.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
     }
   },
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "e9c57691b6181d6908c0db1607a82947",
-    "previewModeSigningKey": "3164475cb001255a3d49ac51405beda9b436ba0f0398be2ac95f4d20f7fe48ac",
-    "previewModeEncryptionKey": "2caeabbd66ef853e64e64f15fe4f65ef1e502dcd5fc58b6582d6060ab143adfd"
+    "previewModeId": "463c342640a628d6da1b3da0fae58ae3",
+    "previewModeSigningKey": "d62fdcc6edca86a47bc028861a5f388052a6354bb3670c2bdaccad9fbd7264b0",
+    "previewModeEncryptionKey": "5d8f8228e4e60f666744a31a77c5364f354fe2d8fd51e7e00c5ffb4f03e6b08b"
   }
 }
