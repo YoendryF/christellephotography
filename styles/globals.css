@@ -441,11 +441,13 @@ h1 {
   background: #9CAF88;
   padding: 1rem;
   border-radius: 8px;
+  z-index: 100;
 }
 
 
   .navbar-title {
     font-size: 1.5rem;
+    z-index: 100;
   }
 
   .intro-polaroid-wrapper {
