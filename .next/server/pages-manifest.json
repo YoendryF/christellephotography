@@ -1,9 +1,9 @@
 {
-  "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/Bio": "pages/Bio.html",
-  "/headshots": "pages/headshots.html",
+  "/_app": "pages/_app.js",
   "/gradpics": "pages/gradpics.html",
+  "/headshots": "pages/headshots.html",
+  "/Bio": "pages/Bio.html",
   "/": "pages/index.html",
   "/naturalphotoshoots": "pages/naturalphotoshoots.html",
   "/portfolio": "pages/portfolio.html",
