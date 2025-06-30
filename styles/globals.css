@@ -318,7 +318,7 @@ a {
   margin-left: 20rem;
   width: 175px;
   height: auto;
-  z-index: 9999;
+  z-index: 99;
   opacity: 0.9;
   transition: transform 0.3s ease;
 }

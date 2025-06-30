@@ -1,14 +1,14 @@
 {
   "/_error": "pages/_error.js",
   "/_app": "pages/_app.js",
-  "/gradpics": "pages/gradpics.html",
   "/Bio": "pages/Bio.html",
+  "/gradpics": "pages/gradpics.html",
   "/headshots": "pages/headshots.html",
+  "/": "pages/index.html",
   "/naturalphotoshoots": "pages/naturalphotoshoots.html",
   "/portfolio": "pages/portfolio.html",
   "/portraits": "pages/portraits.html",
   "/themedphotoshoots": "pages/themedphotoshoots.html",
-  "/": "pages/index.html",
   "/_document": "pages/_document.js",
   "/404": "pages/404.html"
 }
