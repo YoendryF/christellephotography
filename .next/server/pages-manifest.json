@@ -6,9 +6,9 @@
   "/gradpics": "pages/gradpics.html",
   "/": "pages/index.html",
   "/naturalphotoshoots": "pages/naturalphotoshoots.html",
+  "/portfolio": "pages/portfolio.html",
   "/portraits": "pages/portraits.html",
   "/themedphotoshoots": "pages/themedphotoshoots.html",
-  "/portfolio": "pages/portfolio.html",
   "/_document": "pages/_document.js",
   "/404": "pages/404.html"
 }
