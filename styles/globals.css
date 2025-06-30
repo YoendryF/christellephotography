@@ -404,15 +404,16 @@ h1 {
 }
 
 @media (max-width: 768px) {
-  body {
-    transform: scale(0.65);
+  html {
+    transform: scale(0.6);
     transform-origin: top center;
-    width: 100vw;
+    width: 100%;
     overflow-x: hidden;
   }
 
-  html {
+  body {
     overflow-x: hidden;
+    width: 100%;
   }
 
   .navbar {
@@ -420,28 +421,16 @@ h1 {
   }
 
   .navbar-title {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+  }
+
+  .navbar-links {
+    gap: 1rem;
+    margin-left: 1rem;
   }
 
   .menu-btn {
     font-size: 1.5rem;
-  }
-
-  .gallery-wrapper {
-    margin-top: -40rem;
-    padding: 2rem 0;
-  }
-
-  .camera-icon,
-  .cassette-icon,
-  .sticker-icon {
-    transform: scale(0.7);
-    margin: 0;
-  }
-
-  .intro-polaroid-wrapper {
-    margin-left: 2rem;
-    justify-content: flex-start;
   }
 }
 
