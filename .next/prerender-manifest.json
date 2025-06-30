@@ -1,30 +1,6 @@
 {
   "version": 4,
   "routes": {
-    "/about": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/about",
-      "dataRoute": "/about.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/Tech": {
       "experimentalBypassFor": [
         {
@@ -48,13 +24,37 @@
         "x-next-revalidated-tags",
         "x-next-revalidate-tag-token"
       ]
+    },
+    "/about": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/about",
+      "dataRoute": "/about.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
     }
   },
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "f81930a0c48b1960d669863f9772b2cb",
-    "previewModeSigningKey": "4174629c10a550a0aab9834ed06e2863fbd395e8a245fd746550e1b9388016d6",
-    "previewModeEncryptionKey": "f222c7f84cd586cd4c6a7c1dcdf47760fd778f3a854d682f8cb9e49e26a476c4"
+    "previewModeId": "64698aea1004983ce259c0bc1d9af760",
+    "previewModeSigningKey": "c4fb41cbbbe00d40d87b9e1d8c112e1c9c34568c4ef041b3eda3614300fb5567",
+    "previewModeEncryptionKey": "ce928b1f554b03fe442d511e745deb62cffa59c46056b8299567d1cd6342543c"
   }
 }

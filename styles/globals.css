@@ -404,33 +404,50 @@ h1 {
 }
 
 @media (max-width: 768px) {
-  html {
-    transform: scale(0.6);
-    transform-origin: top center;
-    width: 100%;
-    overflow-x: hidden;
+  .gallery-wrapper {
+    margin-top: 0;
+    padding: 2rem 1rem;
   }
 
-  body {
-    overflow-x: hidden;
-    width: 100%;
+  .gallery-inner {
+    transform: none;
   }
 
-  .navbar {
-    padding: 0.5rem 1rem;
+  .polaroid-gallery {
+    grid-template-columns: 1fr;
+    transform: none;
+    padding: 1rem;
   }
 
-  .navbar-title {
-    font-size: 1.2rem;
+  .polaroid {
+    max-width: 90%;
+    margin: 0 auto;
+    transform: none !important;
   }
 
   .navbar-links {
-    gap: 1rem;
-    margin-left: 1rem;
+    display: none;
   }
 
-  .menu-btn {
+  .navbar-title {
     font-size: 1.5rem;
+  }
+
+  .intro-polaroid-wrapper {
+    margin-left: 1rem;
+    justify-content: center;
+  }
+
+  .camera-icon,
+  .cassette-icon,
+  .sticker-icon {
+    width: 200px;
+    margin: 1rem auto;
+    display: block;
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: none;
   }
 }
 
