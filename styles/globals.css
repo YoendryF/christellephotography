@@ -449,8 +449,9 @@ h1 {
   }
 
   .intro-polaroid-wrapper {
-    margin-left: 1rem;
     justify-content: center;
+    margin-top: 0;
+    padding: 2rem 1rem;
   }
 
   .camera-icon{
