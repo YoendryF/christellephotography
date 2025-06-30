@@ -469,7 +469,7 @@ h1 {
     left: 0;
     top: 0;
     transform: none;
-    z-index: 9999;
+    z-index: 99;
   }
 }
 
