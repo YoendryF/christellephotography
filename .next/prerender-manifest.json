@@ -1,30 +1,6 @@
 {
   "version": 4,
   "routes": {
-    "/about": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/about",
-      "dataRoute": "/about.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/Tech": {
       "experimentalBypassFor": [
         {
@@ -48,13 +24,37 @@
         "x-next-revalidated-tags",
         "x-next-revalidate-tag-token"
       ]
+    },
+    "/about": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/about",
+      "dataRoute": "/about.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
     }
   },
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "2569486842bc5d28ebbcca6a7f6f9c7b",
-    "previewModeSigningKey": "1a9417e066a32da5dd684852befd3452c26288b0504e7f33571e8f12101097ec",
-    "previewModeEncryptionKey": "e4b621487307b8cff72ad3ec18509d2095538aa0ed4efcfe5f2b0c47bdaf4aa4"
+    "previewModeId": "0894b1d4a009d5bd9627e5d62f4ce596",
+    "previewModeSigningKey": "0d437ff8fe5737557119590ab2afab6afa03be5192016656a625195c4ef777e5",
+    "previewModeEncryptionKey": "1498be22eace65940aed8e9516adee1e3ab3b1cdb4a01ee90f2de6e7f149f8f7"
   }
 }
