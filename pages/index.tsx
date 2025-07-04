@@ -36,7 +36,7 @@ export default function Home() {
     },
     {
       caption: "Themed Photoshoots",
-      images: ["/Themed/Themed1.JPG", "/Themed/Themed2.JPG", "/Themed/Themed3.JPEG","/Themed/Themed4.JPG","/Themed/Themed5.JPG", "/Themed/Themed6.JPG"]
+      images: ["/Themed/Themed1.JPG", "/Themed/Themed2.JPG", "/Themed/Themed3.JPEG","/Themed/Themed4.JPG","/Themed/Themed5.JPG", "/Themed/Themed6.JPEG"]
     }
   ];
 

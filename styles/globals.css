@@ -100,7 +100,14 @@ a {
     margin: 0 auto;
     transform: translateX(250px);
   }
-  
+  .gallery-grid {
+  display: flex;
+  flex-wrap: wrap; /* allows wrapping onto new lines */
+  justify-content: center;
+  gap: 2rem; /* space between photos */
+  padding: 2rem;
+  }
+
   
   .container {
     max-width: 1200px;
@@ -357,6 +364,12 @@ a {
   margin-top: 1rem;
   flex-wrap: wrap;
 }
+
+.popup-buttons button {
+  width: 140px;
+  text-align: center;
+}
+
 
 .contact-button {
   background: #4a5568;
