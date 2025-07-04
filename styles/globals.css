@@ -350,6 +350,27 @@ a {
   transform: scale(1.1) rotate(5deg);
 }
 
+.popup-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.contact-button {
+  background: #4a5568;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  font-family: 'Parisienne', cursive;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background: #2d3748;
+}
 
 .popup-overlay {
   position: fixed;

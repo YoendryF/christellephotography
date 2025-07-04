@@ -129,15 +129,18 @@ export default function Home() {
           <h2>Rates</h2>
           <p>Standard shoots range at around $80 an hour, but is susceptible to upcharges depending on shoot specifics and location</p>
           <p>Please contact me to discuss price and booking details</p>
-          <div style={{ marginTop: "1rem" }}>
+           <div className="popup-buttons">
             <button
-              className="close-button"
+              className="contact-button"
               onClick={() => {
                 setShowRates(false);
-                setShowContact(true); 
+                setShowContact(true);
               }}
             >
               Contact Me
+            </button>
+            <button className="close-button" onClick={() => setShowRates(false)}>
+              Close
             </button>
           </div>
         </div>
