@@ -97,7 +97,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "C:\\Users\\yoend\\christelle",
+    "outputFileTracingRoot": "C:\\Users\\yoend\\christelle\\christellephotography",
     "experimental": {
       "nodeMiddleware": false,
       "cacheLife": {
@@ -280,10 +280,10 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.js",
     "turbopack": {
-      "root": "C:\\Users\\yoend\\christelle"
+      "root": "C:\\Users\\yoend\\christelle\\christellephotography"
     }
   },
-  "appDir": "C:\\Users\\yoend\\christelle",
+  "appDir": "C:\\Users\\yoend\\christelle\\christellephotography",
   "relativeAppDir": "",
   "files": [
     ".next\\routes-manifest.json",
@@ -307,6 +307,6 @@
     ".next\\server\\next-font-manifest.json"
   ],
   "ignore": [
-    "node_modules\\next\\dist\\compiled\\@ampproject\\toolbox-optimizer\\**\\*"
+    "..\\node_modules\\next\\dist\\compiled\\@ampproject\\toolbox-optimizer\\**\\*"
   ]
 }
