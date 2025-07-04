@@ -24,7 +24,7 @@ export default function Home() {
     },
     {
       caption: "Grad Pics",
-      images: ["/Grad/Grad1.JPG","/Grad/Grad2.JPG","/Grad/Grad3.JPG","/Grad/Grad4.JPEG","/Grad/Grad5.JPEG","/Grad/Grad6.JPG","/Grad/Grad7.JPG","/Grad/Grad8.JPEG","/Grad/Grad9.JPEG","/Grad/Grad10.JPEG","/Grad/Grad11.JPEG"],
+      images: ["/Grad/Grad1.JPG","/Grad/Grad2.JPG","/Grad/Grad3.JPG","/Grad/Grad4.JPEG","/Grad/Grad5.JPEG","/Grad/Grad6.JPG","/Grad/Grad7.JPG","/Grad/Grad8.JPEG","/Grad/Grad9.JPEG","/Grad/Grad10.JPEG","/Grad/Grad11.JPEG","/Grad/Grad12.JPEG"],
     },
     {
       caption: "Natural Photoshoots",
@@ -36,7 +36,7 @@ export default function Home() {
     },
     {
       caption: "Themed Photoshoots",
-      images: ["/Themed/Themed1.JPG", "/Themed/Themed2.JPG", "/Themed/Themed3.JPEG","/Themed/Themed4.JPG","/Themed/Themed5.JPG"]
+      images: ["/Themed/Themed1.JPG", "/Themed/Themed2.JPG", "/Themed/Themed3.JPEG","/Themed/Themed4.JPG","/Themed/Themed5.JPG", "/Themed/Themed6.JPG"]
     }
   ];
 
@@ -56,7 +56,7 @@ export default function Home() {
       {/*Navbar*/}
       <nav className="navbar">
         <div className="navbar-title">ChristellePhotography.com</div>
-        <div className = "navbar-links">
+        <div className={`navbar-links ${isOpen ? "mobile-open" : ""}`}>
         <Link href="/portfolio">Portfolio</Link>
         <a href="#" onClick={() => setShowRates(true)}>Rates</a>
         <a href="#" onClick={() => setShowTech(true)}>Tech</a>
@@ -67,18 +67,6 @@ export default function Home() {
           ☰
         </button>
       </nav>
-
-      {/*Sidebar*/}
-      <div className={`sidebar ${isOpen ? 'open' : ''}`}>
-        <button className="close-btn" onClick={() => setIsOpen(false)}>
-          ×
-        </button>
-        <ul>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
 
       {/*Camera*/}
       <Image src={`/SONYFX3.PNG`}  
@@ -136,15 +124,25 @@ export default function Home() {
       {/*rates and contact pop ups*/}
       {/* Rates Popup */}
       {showRates && (
-        <div className="popup-overlay" onClick={() => setShowRates(false)}>
-          <div className="popup-content" onClick={(e) => e.stopPropagation()}>
-            <h2>Rates</h2>
-            <p>Standard shoots range at around $80 an hour, but is susceptible to upcharges depending on shoot specifics and location</p>
-            <p>Please contact me to discuss price and booking details</p>
-            <button className="close-button" onClick={() => setShowRates(false)}>Close</button>
+      <div className="popup-overlay" onClick={() => setShowRates(false)}>
+        <div className="popup-content" onClick={(e) => e.stopPropagation()}>
+          <h2>Rates</h2>
+          <p>Standard shoots range at around $80 an hour, but is susceptible to upcharges depending on shoot specifics and location</p>
+          <p>Please contact me to discuss price and booking details</p>
+          <div style={{ marginTop: "1rem" }}>
+            <button
+              className="close-button"
+              onClick={() => {
+                setShowRates(false);
+                setShowContact(true); 
+              }}
+            >
+              Contact Me
+            </button>
           </div>
         </div>
-      )}
+      </div>
+    )}
 
       {/* Contact Popup */}
       {showContact && (
@@ -152,9 +150,9 @@ export default function Home() {
           <div className="popup-content" onClick={(e) => e.stopPropagation()}>
             <h2>Contact</h2>
             <p>Please email me for any questions or bookings at:</p>
-            <p>christellepb1@gmail.com</p>
+            <p className="custom-font">christellepb1@gmail.com</p>
             <p>Or check out my film/photography instagram page:</p>
-            <p>@chrissypfilms</p>
+            <p className="custom-font">@chrissypfilms</p>
             <button className="close-button" onClick={() => setShowContact(false)}>Close</button>
           </div>
         </div>
@@ -167,18 +165,18 @@ export default function Home() {
             <h2>Technology Used</h2>
             <p>📷Cameras📷</p>
             <ul>
-              <li>Sony FX3 Full-Frame Cinema Line Camera</li>
-              <li>Sony ZV-E10</li>
+              <li className="custom-font">Sony FX3 Full-Frame Cinema Line Camera</li>
+              <li className="custom-font">Sony ZV-E10</li>
               <p>📸Lenses📸</p>
-              <li>Sony E 55-210mm f/4.5 OSS</li>
-              <li>Sony 16-50mm f/3.5-5.6 OSS</li>
-              <li>Viltrox AF 16mm F1.8 Full Frame Autofocus</li>
-              <li>Anamorphic Helios 44-2 2/58mm</li>
+              <li className="custom-font">Sony E 55-210mm f/4.5 OSS</li>
+              <li className="custom-font">Sony 16-50mm f/3.5-5.6 OSS</li>
+              <li className="custom-font">Viltrox AF 16mm F1.8 Full Frame Autofocus</li>
+              <li className="custom-font">Anamorphic Helios 44-2 2/58mm</li>
               <p>💡Lighting💡</p>
-              <li>SmallRig RC 120B 120W Bi-Color Cob Video Light</li>
+              <li className="custom-font">SmallRig RC 120B 120W Bi-Color Cob Video Light</li>
               <p>💻Editing Softwares💻</p>
-              <li>Adobe Lightroom & Photoshop</li>
-              <li>Premier Pro Editing</li>
+              <li className="custom-font">Adobe Lightroom & Photoshop</li>
+              <li className="custom-font">Premier Pro Editing</li>
             </ul>
             <button className="close-button" onClick={() => setShowTech(false)}>Close</button>
           </div>
