@@ -9,7 +9,7 @@ export default function NaturePhotosPage() {
         <h1>Nature Photoshoots</h1>
         <div className="photo-grid">
           {naturePhotos.map((src, idx) => (
-            <div key={idx} className="dynamic-polaroid">
+            <div key={idx} className="polaroid">
             <Image key={idx} src={src} alt={`Nature${idx + 1}`} />
             </div>
           ))}

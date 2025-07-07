@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/z1Ce-97M6cEbOXEDLSCdo/_buildManifest.js",
-    "static/z1Ce-97M6cEbOXEDLSCdo/_ssgManifest.js"
+    "static/OHDlHMR4f7OQaSMS7uBT2/_buildManifest.js",
+    "static/OHDlHMR4f7OQaSMS7uBT2/_ssgManifest.js"
   ],
   "rootMainFiles": [
     "static/chunks/webpack-c6154bbfdfeccda4.js",
@@ -34,8 +34,8 @@
       "static/chunks/webpack-c6154bbfdfeccda4.js",
       "static/chunks/framework-dababa571f3f98a3.js",
       "static/chunks/main-7d4e34812f1ff03b.js",
-      "static/css/d04c6a86a1d4ace0.css",
-      "static/chunks/pages/_app-a857ac01744bc852.js"
+      "static/css/5cddebf8c7e2151f.css",
+      "static/chunks/pages/_app-9f056e0420601b2b.js"
     ],
     "/_error": [
       "static/chunks/webpack-c6154bbfdfeccda4.js",
@@ -55,14 +55,14 @@
       "static/chunks/framework-dababa571f3f98a3.js",
       "static/chunks/main-7d4e34812f1ff03b.js",
       "static/chunks/245-a04c068298f29a18.js",
-      "static/chunks/pages/headshots-983b50ff16d8afd5.js"
+      "static/chunks/pages/headshots-576eaeed10f34015.js"
     ],
     "/naturalphotoshoots": [
       "static/chunks/webpack-c6154bbfdfeccda4.js",
       "static/chunks/framework-dababa571f3f98a3.js",
       "static/chunks/main-7d4e34812f1ff03b.js",
       "static/chunks/245-a04c068298f29a18.js",
-      "static/chunks/pages/naturalphotoshoots-e3e5aad9304b35ba.js"
+      "static/chunks/pages/naturalphotoshoots-0a115adacdad3025.js"
     ],
     "/portfolio": [
       "static/chunks/webpack-c6154bbfdfeccda4.js",

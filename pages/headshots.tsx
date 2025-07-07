@@ -1,7 +1,7 @@
 import Image from 'next/image';
 export default function HeadshotsPage() {
     const headshots = [
-      "/Headshots/Headshot1.JPG", "/Headshots/Headshot2.JPEG", "/Headshots/Headshot3.JPG", "/Headshots/Headshot4.JPG", "/Headshots/Headshot5.JPEG", "/Headshots/Headshot6.JPEG","/Headshots/Headshot7.JPEG","/Headshots/Headshot8.JPEG","/Headshots/Headshot9.JPEG","/Headshots/Headshot10.JPEG","/Headshots/Headshot11.JPEG","/Headshots/Headshot12.JPEG"
+      "/Headshots/Headshot1.JPG", "/Headshots/Headshot12.JPEG", "/Headshots/Headshot3.JPG", "/Headshots/Headshot4.JPG", "/Headshots/Headshot5.JPEG", "/Headshots/Headshot6.JPEG","/Headshots/Headshot7.JPEG","/Headshots/Headshot8.JPEG","/Headshots/Headshot9.JPEG","/Headshots/Headshot10.JPEG","/Headshots/Headshot11.JPEG","/Headshots/Headshot2.JPEG"
     ];
   
     return (
