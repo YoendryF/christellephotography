@@ -1,14 +1,16 @@
 import Image from 'next/image';
 export default function ThemedPhotoshootsPage() {
     const Themed = [
-      "../Themed/Themed1.JPG", "../Themed/Themed2.JPG", "../Themed/Themed3.JPEG", "../Themed/Themed4.JPG", "../Themed/Themed5.JPG", "../Themed/Themed6.JPEG"
+      "../Themed/Themed1.JPG", "../Themed/Themed2.JPG", "../Themed/Themed3.JPEG", "../Themed/Themed4.JPG", "../Themed/Themed5.JPG", "../Themed/Themed6.JPEG","../Themed/Themed7.JPG","../Themed/Themed8.JPG"
     ]
     return (
       <main>
         <h1>Themed Photoshoots</h1>
         <div className="photo-grid">
           {Themed.map((src, idx) => (
+            <div key={idx} className="polaroid">
             <Image key={idx} src={src} alt={`Themed${idx + 1}`} />
+            </div>
           ))}
         </div>
       </main>

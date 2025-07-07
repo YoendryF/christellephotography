@@ -16,7 +16,7 @@ export default function BioPage() {
         />
 
         <p style={{ lineHeight: '1.6', fontSize: '1.1rem', maxWidth: '500px', fontFamily: 'Dancing Script, cursive' }}>
-          Hi, I&apos;m Christelle! I&apos;mm a photographer who&apos;s passionate about capturing genuine moments and loves turning them into memories. 
+          Hi, I&apos;m Christelle! I&apos;m a photographer who&apos;s passionate about capturing genuine moments and loves turning them into memories. 
           <br /><br />
           In my spare time, I love filming cinematic shots with friends. Natural lighting and telling stories through my lenses are what draw me. 
           <br /><br />

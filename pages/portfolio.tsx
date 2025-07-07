@@ -14,6 +14,9 @@ const allImages = [
   "/Headshots/Headshot7.JPEG",
   "/Headshots/Headshot8.JPEG",
   "/Headshots/Headshot9.JPEG",
+  "/Headshots/Headshot10.JPEG",
+  "/Headshots/Headshot11.JPEG",
+  "/Headshots/Headshot12.JPEG",
   // Grad
   "/Grad/Grad1.JPG",
   "/Grad/Grad2.JPG",
@@ -27,6 +30,12 @@ const allImages = [
   "/Grad/Grad10.JPEG",
   "/Grad/Grad11.JPEG",
   "/Grad/Grad12.JPEG",
+  "/Grad/Grad13.JPG",
+  "/Grad/Grad14.JPG",
+  "/Grad/Grad15.JPG",
+  "/Grad/Grad16.JPG",
+  "/Grad/Grad17.JPG",
+  "/Grad/Grad18.JPG",
   // Nature
   "/Nature/Nature1.JPG",
   "/Nature/Nature2.JPEG",
@@ -47,6 +56,17 @@ const allImages = [
   "/Nature/Nature17.JPG",
   "/Nature/Nature18.JPG",
   "/Nature/Nature19.JPG",
+  "/Nature/Nature20.JPEG",
+  "/Nature/Nature21.JPG",
+  "/Nature/Nature22.JPG",
+  "/Nature/Nature23.JPG",
+  "/Nature/Nature24.JPG",
+  "/Nature/Nature25.JPG",
+  "/Nature/Nature26.JPG",
+  "/Nature/Nature27.JPG",
+  "/Nature/Nature28.JPG",
+  "/Nature/Nature29.JPG",
+  "/Nature/Nature30.JPEG",
   // Portraits
   "/Portraits/Portrait1.JPG",
   "/Portraits/Portrait2.JPG",
@@ -65,6 +85,14 @@ const allImages = [
   "/Portraits/Portrait15.JPG",
   "/Portraits/Portrait16.JPG",
   "/Portraits/Portrait17.JPG",
+  "/Portraits/Portrait18.JPG",
+  "/Portraits/Portrait19.JPG",
+  "/Portraits/Portrait20.JPG",
+  "/Portraits/Portrait21.JPG",
+  "/Portraits/Portrait22.JPEG",
+  "/Portraits/Portrait23.JPEG",
+  "/Portraits/Portrait24.JPG",
+  "/Portraits/Portrait25.JPG",
   // Themed
   "/Themed/Themed1.JPG",
   "/Themed/Themed2.JPG",
@@ -72,6 +100,8 @@ const allImages = [
   "/Themed/Themed4.JPG",
   "/Themed/Themed5.JPG",
   "/Themed/Themed6.JPEG",
+  "/Themed/Themed7.JPG",
+  "/Themed/Themed8.JPG",
 ];
 
 
@@ -97,7 +127,7 @@ export default function Portfolio() {
       <div className="gallery-grid">
         {shuffledImages.map((src, idx) => (
           <div key={idx} className="polaroid">
-            <Image src={src} alt={`Portfolio ${idx}`} width={300} height={400} />
+            <Image src={src} alt={`Portfolio ${idx}`} layout="responsive" width={1} height={1}/>
           </div>
         ))}
       </div>
