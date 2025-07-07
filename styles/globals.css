@@ -132,10 +132,32 @@ a {
     transform-origin: center;
     transition: transform 0.3s;
   }
+
+  .dynamic-polaroid {
+  background: white;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  max-width: 280px;
+  height: auto; /* Let height grow based on content */
+  }
+
+.dynamic-polaroid img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  }
+
   
   .polaroid img {
     width: 100%;
-    height: auto;
+    height: 230px;
     display: block;
     margin-bottom: 0.5rem;
     object-fit: cover;

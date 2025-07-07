@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/efFNuYzw44Ua94vZV-FVD/_buildManifest.js",
-    "static/efFNuYzw44Ua94vZV-FVD/_ssgManifest.js"
+    "static/z1Ce-97M6cEbOXEDLSCdo/_buildManifest.js",
+    "static/z1Ce-97M6cEbOXEDLSCdo/_ssgManifest.js"
   ],
   "rootMainFiles": [
     "static/chunks/webpack-c6154bbfdfeccda4.js",
@@ -34,8 +34,8 @@
       "static/chunks/webpack-c6154bbfdfeccda4.js",
       "static/chunks/framework-dababa571f3f98a3.js",
       "static/chunks/main-7d4e34812f1ff03b.js",
-      "static/css/a9ccc89fc22eb15c.css",
-      "static/chunks/pages/_app-da9f4a109898322a.js"
+      "static/css/d04c6a86a1d4ace0.css",
+      "static/chunks/pages/_app-a857ac01744bc852.js"
     ],
     "/_error": [
       "static/chunks/webpack-c6154bbfdfeccda4.js",
@@ -62,7 +62,7 @@
       "static/chunks/framework-dababa571f3f98a3.js",
       "static/chunks/main-7d4e34812f1ff03b.js",
       "static/chunks/245-a04c068298f29a18.js",
-      "static/chunks/pages/naturalphotoshoots-0a115adacdad3025.js"
+      "static/chunks/pages/naturalphotoshoots-e3e5aad9304b35ba.js"
     ],
     "/portfolio": [
       "static/chunks/webpack-c6154bbfdfeccda4.js",

@@ -1,30 +1,6 @@
 {
   "version": 4,
   "routes": {
-    "/about": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/about",
-      "dataRoute": "/about.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/Tech": {
       "experimentalBypassFor": [
         {
@@ -48,13 +24,37 @@
         "x-next-revalidated-tags",
         "x-next-revalidate-tag-token"
       ]
+    },
+    "/about": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/about",
+      "dataRoute": "/about.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
     }
   },
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "72d90b65fa6e1ee5246576fb1005e4f8",
-    "previewModeSigningKey": "f218e905efc3b4ef6985458e63eb589b3dc7b1009953bc1ecd715bf02629bedf",
-    "previewModeEncryptionKey": "459ddb3a0e7d8b0616477159060156d5d1dd32edb5321e70d42835d020fc0eeb"
+    "previewModeId": "1eec751452341b8663add8b52ebd7240",
+    "previewModeSigningKey": "47e71c89c34375f458ff904eb7cb46648fec77c83ee0269e3887bc17ebb0a4ba",
+    "previewModeEncryptionKey": "fdad16e8a53fd0af3466eacc1d5b479014d1eafacae423e1205be483ea5163df"
   }
 }
